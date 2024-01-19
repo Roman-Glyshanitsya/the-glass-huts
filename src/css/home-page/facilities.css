@@ -1,0 +1,38 @@
+.facilities {
+    max-width: 1408px;
+    height: 971px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #ffffff;
+    background-color: #5b6460;
+}
+
+.facilities__title {
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 1;
+    text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.facilities__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: -150px;
+    margin-top: -83px;
+}
+
+.facilities__item {
+    margin-right: 150px;
+    margin-top: 83px;
+    flex-basis: calc((100% - 4 * 150px) / 4);
+}
+
+.facilities__icon {
+    width: 70px;
+    height: 70px;
+}

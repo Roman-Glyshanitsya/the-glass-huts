@@ -1,38 +1,49 @@
-.main-nav {
+.nav {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .logo {
+    padding: 18px 0;
     margin-right: 240px;
 }
 
-.menu {
+.nav__list {
     display: flex;
+    gap: 35px;
+    align-items: center;
     margin-right: 25px;
 }
 
-.menu__item:not(:last-child) {
-    margin-right: 36px;
-}
-
-.menu__link {
-    display: block;
-    padding-top: 38px;
-    padding-bottom: 38px;
-
+.nav__link {
     font-family: 'Mukta', sans-serif;
-    font-weight: 300;
     font-size: 14px;
+    font-weight: 300;
     line-height: 1.71;
     text-transform: uppercase;
 
     color: #000000;
 }
 
+.nav__link::after {
+    content: '';
+    display: block;
+    width: 90%;
+    height: 1px;
+    background-color: currentColor;
+    transform: scale(0);
+    transform-origin: center right;
+    transition: all 300ms ease-in-out;
+}
+
+.nav__link:hover::after,
+.nav__link:focus::after {
+    transform: scale(1.1);
+    transform-origin: center left;
+}
+
 .language {
-    margin-right: 177px;
     width: 25px;
     height: 25px;
     background-color: red;
@@ -43,19 +54,20 @@
     height: 60px;
 
     font-family: 'Mukta', sans-serif;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 14px;
-    line-height: 1.71;
+    line-height: 2;
+    letter-spacing: 1px;
     text-transform: uppercase;
 
     cursor: pointer;
     border: none;
 
     color: #ffffff;
-    background-color: #808e88;
+    background-color: #5B6460;
 }
 
 .header__button:hover,
 .header__button:focus {
-    background-color: #5b6460;
+    background-color: #808E88;
 }

@@ -10,4 +10,12 @@
 
 @import url('./common-elements/header.css');
 
+/* Home Page */
+@import url('./home-page/hero.css');
+@import url('./home-page/the-cabins.css');
+@import url('./home-page/location.css');
+@import url('./home-page/facilities.css');
+
+
+/* Booking Page */
 :root {}
