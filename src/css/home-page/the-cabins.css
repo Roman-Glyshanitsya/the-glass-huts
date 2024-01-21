@@ -34,7 +34,7 @@
     text-decoration: underline;
 }
 
-.cabins__bedroom {
+.cabins__bedroom__list {
     display: flex;
     gap: 20px;
 }
