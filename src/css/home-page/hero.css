@@ -16,8 +16,7 @@
 }
 
 .hero__title {
-    padding-top: 95px;
-    margin-right: 60px;
+    padding-top: 85px;
     margin-bottom: 34px;
     font-weight: 300;
     font-size: 70px;
@@ -33,7 +32,6 @@
     max-width: 333px;
     text-align: center;
     margin-left: auto;
-    margin-right: 145px;
     color: #ffffff;
 }
 
@@ -41,14 +39,13 @@
     position: absolute;
     display: inline-flex;
     align-items: center;
-    top: 90%;
-    left: 15%;
+    top: 92%;
+    left: 10%;
 }
 
 .hero__book-button {
     width: 263px;
     height: 100px;
-    /* padding: 0; */
 
     font-family: 'Mukta', sans-serif;
     font-size: 18px;
@@ -62,12 +59,13 @@
 
     color: #ffffff;
     background-color: #5B6460;
+
+    transition: background-color var(--animation);
 }
 
 .hero__price-button {
     width: 120px;
     height: 100px;
-    /* padding: 0; */
     border: none;
     cursor: pointer;
 
@@ -90,7 +88,7 @@
     color: #333333;
 }
 
-.hero__book-button:hover,
-.hero__book-button:focus {
+.hero__button:hover .hero__book-button,
+.hero__button:focus .hero__book-button {
     background-color: #808E88;
 }
