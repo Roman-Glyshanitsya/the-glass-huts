@@ -1,35 +1,28 @@
 .facilities {
-    max-width: 1408px;
     height: 971px;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
     color: #ffffff;
     background-color: #5b6460;
 }
 
 .facilities__title {
-    font-weight: 300;
     font-size: 40px;
+    font-weight: 300;
     line-height: 1;
     text-align: center;
     padding-top: 150px;
-    padding-bottom: 100px;
+    margin-bottom: 100px;
 }
 
 .facilities__list {
     display: flex;
-    align-items: center;
-    justify-content: center;
     flex-wrap: wrap;
-    margin-right: -150px;
-    margin-top: -83px;
+    justify-content: center;
+    gap: 130px 80px;
 }
 
 .facilities__item {
-    margin-right: 150px;
-    margin-top: 83px;
-    flex-basis: calc((100% - 4 * 150px) / 4);
+    flex-basis: calc((100% - 3 * 130px) / 4);
+    text-align: center;
 }
 
 .facilities__icon {
