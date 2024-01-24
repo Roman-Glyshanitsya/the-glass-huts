@@ -1,0 +1,63 @@
+.more-about-us {
+    position: relative;
+    height: 560px;
+    background-image: url('/img/home-page/more-about-us/more-about-us-left-1x.jpg'), url('/img/home-page/more-about-us/more-about-us-right-1x.jpg');
+    background-position: left, right;
+    background-size: 50% 100%, 50%;
+    background-repeat: no-repeat;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: url('/img/home-page/hero/hero-1@2x.jpg');
+        background-image: url('/img/home-page/more-about-us/more-about-us-left-@2x.jpg'), url('/img/home-page/more-about-us/more-about-us-right-@2x.jpg');
+    }
+}
+
+.more-about-us__link {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background-color: #E9ECE0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: #333;
+    font-family: 'Mukta', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.37;
+
+    transition: all var(--animation);
+}
+
+.more-about-us__link:hover,
+.more-about-us__link:focus {
+    background-color: #5B6460;
+    color: #FFF;
+}
+
+.more-about-us__link::after {
+    content: '';
+    width: 60%;
+    height: 1px;
+    background-color: currentColor;
+    transform: scale(0);
+    transform-origin: center right;
+    transition: all var(--animation);
+}
+
+.more-about-us__link:hover::after,
+.more-about-us__link:focus::after {
+    transform: scale(1);
+    transform-origin: center left;
+}

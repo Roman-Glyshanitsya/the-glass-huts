@@ -29,7 +29,7 @@
 .nav__link::after {
     content: '';
     display: block;
-    width: 90%;
+    width: 100%;
     height: 1px;
     background-color: currentColor;
     transform: scale(0);
@@ -39,7 +39,7 @@
 
 .nav__link:hover::after,
 .nav__link:focus::after {
-    transform: scale(1.1);
+    transform: scale(1);
     transform-origin: center left;
 }
 
