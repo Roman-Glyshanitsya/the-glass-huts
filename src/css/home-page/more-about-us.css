@@ -10,8 +10,7 @@
 @media (min-device-pixel-ratio: 2),
 (min-resolution: 192dpi),
 (min-resolution: 2dppx) {
-    .hero {
-        background-image: url('/img/home-page/hero/hero-1@2x.jpg');
+    .more-about-us {
         background-image: url('/img/home-page/more-about-us/more-about-us-left-@2x.jpg'), url('/img/home-page/more-about-us/more-about-us-right-@2x.jpg');
     }
 }
