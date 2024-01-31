@@ -3,7 +3,7 @@
     height: 560px;
     background-image: url('/img/home-page/more-about-us/more-about-us-left-1x.jpg'), url('/img/home-page/more-about-us/more-about-us-right-1x.jpg');
     background-position: left, right;
-    background-size: 50% 100%, 50%;
+    background-size: 50% 100%;
     background-repeat: no-repeat;
 }
 

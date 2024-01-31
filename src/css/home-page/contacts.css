@@ -1,16 +1,15 @@
 .contacts {
     height: 620px;
+    padding-top: 150px;
 }
 
 .contacts .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
-.contacts__text-content {
-    padding-top: 150px;
-}
+.contacts__text-content {}
 
 .contacts__title {
     color: #5B6460;
@@ -67,8 +66,64 @@
 
 
 
-.contacts__thumb {}
+.contacts__thumb {
+    width: 386px;
+    align-self: flex-end;
+}
 
 .contacts__thumb__img {}
 
-.contacts__thumb__button {}
+.contacts__button {
+    display: inline-flex;
+    align-items: center;
+}
+
+.contacts__book-button {
+    width: 266px;
+    height: 100px;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.56;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    border: none;
+    cursor: pointer;
+
+    color: #FFF;
+    background-color: #5B6460;
+
+    transition: background-color var(--animation);
+}
+
+.contacts__price-button {
+    width: 120px;
+    height: 100px;
+    border: none;
+    cursor: pointer;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: #333333;
+
+    background-color: #E9ECE0;
+}
+
+.contacts__price-button--span {
+    display: block;
+
+    font-family: 'Mukta', sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.contacts__button:hover .contacts__book-button,
+.contacts__button:focus .contacts__book-button {
+    background-color: #808E88;
+}
