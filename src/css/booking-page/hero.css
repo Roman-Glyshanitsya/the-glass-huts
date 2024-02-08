@@ -1,0 +1,41 @@
+.booking__hero {
+    height: 350px;
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('/img/booking-page/hero/booking-hero.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: grey;
+    color: #FFF;
+    text-align: center;
+    padding-top: 67px;
+}
+
+@media (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+    .hero {
+        background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('/img/booking-page/hero/booking-hero@2x.jpg');
+    }
+}
+
+.booking__title {
+    font-size: 70px;
+    font-weight: 300;
+    line-height: 1.02;
+    margin-bottom: 15px;
+}
+
+.booking__adress-link {
+    font-size: 18px;
+    line-height: 1.33;
+    text-decoration-line: underline;
+}
+
+.booking__adress-link::before {
+    margin-right: 7px;
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 15px;
+    background-image: url('../../img/booking-page/icons/location.png');
+}
