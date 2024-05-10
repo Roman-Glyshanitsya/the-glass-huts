@@ -1,0 +1,34 @@
+.services {}
+
+.container {}
+
+.services__title {
+    color: #5B6460;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.services__line {}
+
+.services__list {}
+
+.services__item {}
+
+.services__item-thumb {
+    width: 660px;
+    height: 70px;
+    background-color: #E9ECE0;
+}
+
+.services__item-input {}
+
+.services__item-text {}
+
+.services__item-text__subtitle {}
+
+.services__item-text__price {}
+
+.services__item__button {}
+
+.services__item__button-icon {}
