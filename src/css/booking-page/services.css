@@ -3,7 +3,10 @@
     margin-bottom: 100px;
 }
 
-.container {}
+.services .container {
+    display: flex;
+    justify-content: space-between;
+}
 
 .services__title {
     color: #5B6460;
@@ -109,4 +112,10 @@
     font-weight: 300;
     line-height: 142%;
 
+}
+
+.services__booking-result__thumb {
+    width: 432px;
+    height: 620px;
+    border: 1px solid #5B6460;
 }
