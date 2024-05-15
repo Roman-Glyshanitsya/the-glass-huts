@@ -114,8 +114,103 @@
 
 }
 
-.services__booking-result__thumb {
+.services__booking-total__thumb {
     width: 432px;
     height: 620px;
+    padding: 21px 24px;
     border: 1px solid #5B6460;
+}
+
+.services__booking__price {
+    color: #333;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 166%;
+    margin-bottom: 25px;
+}
+
+.services__booking__price--span {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 250%;
+}
+
+.services__booking__dates__thumb {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    padding: 15px 0;
+    border: 1px solid #5B6460;
+    margin-bottom: 25px;
+}
+
+.services__booking__dates {
+    margin-left: 20px;
+}
+
+.services__booking__dates:not(:last-child) {
+    border-right: 1px solid #5B6460;
+    padding-right: 40px;
+}
+
+.services__booking__dates-subtitle {
+    color: #333;
+    font-family: "Lato", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 133%;
+    margin-bottom: 5px;
+}
+
+.services__booking__dates-text {
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 128%;
+}
+
+.services__booking__dates-guests {
+    display: flex;
+    gap: 8px;
+}
+
+.services__booking__guests-btn {
+    width: 18px;
+    height: 18px;
+
+    border: 0;
+    background-color: transparent;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services__booking__guest-result {
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 128%;
+    padding: 0;
+    margin: 0;
+}
+
+.services__booking-button {
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 200%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    background-color: #5B6460;
+    border: none;
+    padding: 16px 0px;
+    margin-bottom: 30px;
 }
