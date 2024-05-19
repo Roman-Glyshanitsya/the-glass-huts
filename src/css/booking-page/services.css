@@ -214,3 +214,20 @@
     padding: 16px 0px;
     margin-bottom: 30px;
 }
+
+.services__booking__service {
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 112%;
+
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.services__booking__service:last-child {
+    color: #41906D;
+}
+
+.services__booking__service-price {}
