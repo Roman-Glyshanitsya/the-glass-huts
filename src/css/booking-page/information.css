@@ -1,0 +1,47 @@
+.booking__information {
+    margin-bottom: 100px;
+}
+
+.booking__information__title {
+    width: 660px;
+    color: #5B6460;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 100%;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #5B6460;
+    margin-bottom: 24px;
+}
+
+.booking__information__title:not(:first-child) {
+    margin-top: 100px;
+}
+
+.booking__information__text {
+    width: 660px;
+    color: #333;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 175%;
+}
+
+
+.bokoking__information__button {
+    display: block;
+    margin: 0 auto;
+    width: 180px;
+    height: 55px;
+    background-color: #5B6460;
+    border: none;
+
+    color: #FFF;
+    text-align: center;
+    font-family: 'Mukta', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 200%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    margin-top: 100px;
+}

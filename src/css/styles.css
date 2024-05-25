@@ -24,6 +24,7 @@
 /* Booking Page */
 @import url('./booking-page/booking-hero.css');
 @import url('./booking-page/services.css');
+@import url('./booking-page/information.css');
 
 :root {
   --animation: 300ms cubic-bezier(0.4, 0, 0.2, 1);
