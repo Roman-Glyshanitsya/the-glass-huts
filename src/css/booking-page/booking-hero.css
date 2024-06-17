@@ -1,6 +1,8 @@
 .booking__hero {
     height: 350px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url('/img/booking-page/hero/booking-hero.jpg');
+    background-image: linear-gradient(to right,
+            rgba(51, 51, 51, 0.7),
+            rgba(51, 51, 51, 0.7)), url('/img/booking-page/hero/booking-hero.jpg');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
