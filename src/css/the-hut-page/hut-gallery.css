@@ -1,5 +1,6 @@
 .hut {
-    padding: 150px 0;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .hut__list {}
@@ -7,7 +8,6 @@
 .hut__item {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 140px;
 }
 
