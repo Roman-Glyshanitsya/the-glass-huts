@@ -33,11 +33,11 @@ body {
 /* Спочатку ховаємо вміст */
 .fade-out {
     opacity: 0;
-    transition: opacity 500ms ease;
+    transition: opacity 1000ms linear;
 }
 
 /* Додаємо плавну появу */
 .fade-in {
     opacity: 1;
-    transition: opacity 500ms ease;
+    transition: opacity 1000ms linear;
 }
