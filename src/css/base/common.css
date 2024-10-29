@@ -29,15 +29,3 @@ body {
     line-height: 1.87;
     color: #333;
 }
-
-/* Спочатку ховаємо вміст */
-.fade-out {
-    opacity: 0;
-    transition: opacity 1000ms linear;
-}
-
-/* Додаємо плавну появу */
-.fade-in {
-    opacity: 1;
-    transition: opacity 1000ms linear;
-}
