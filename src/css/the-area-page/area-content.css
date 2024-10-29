@@ -6,13 +6,15 @@
 .area__content__about {
     display: flex;
     align-items: center;
-    gap: 140px;
+    justify-content: space-between;
     margin-bottom: 146px;
 }
 
 .area__content__about__img {}
 
-.area__content__about__container {}
+.area__content__about__container {
+    width: 429px;
+}
 
 .area__content__about__subtitle {
     width: 390px;

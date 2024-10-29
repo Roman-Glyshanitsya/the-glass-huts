@@ -15,7 +15,7 @@
 .area__gallery__item {
     display: flex;
     align-items: center;
-    gap: 140px;
+    justify-content: space-between;
 }
 
 .area__gallery__item:not(:last-child) {
@@ -27,6 +27,10 @@
 }
 
 .area__gallery__image {}
+
+.area__gallery__item__content-thumb {
+    width: 448px;
+}
 
 .area__gallery__item__image-buttons {
     display: flex;
