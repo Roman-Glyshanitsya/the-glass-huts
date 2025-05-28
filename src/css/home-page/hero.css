@@ -1,13 +1,31 @@
 .hero {
     position: relative;
     height: 700px;
-    background-image: linear-gradient(to right,
-            rgba(51, 51, 51, 0.35),
-            rgba(51, 51, 51, 0.35)), url('/img/home-page/hero/hero-main.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
     background-color: grey;
+}
+
+.hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+
+.hero__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 1;
+
+}
+
+.hero__content {
+    position: relative;
+    z-index: 2;
 }
 
 .hero__title {
@@ -34,8 +52,8 @@
     position: absolute;
     display: inline-flex;
     align-items: center;
-    top: 92%;
-    left: 10%;
+    bottom: -490px;
+    left: 146px;
 }
 
 .hero__book-button {
