@@ -36,9 +36,14 @@
 @import url('./the-area-page/area-gallery.css');
 @import url('./the-area-page/area-location.css');
 
-/* About Us Oage */
+/* About Us Page */
 @import url('./about-us-page/about-us-hero.css');
 @import url('./about-us-page/about-us-view.css');
+@import url('./about-us-page/about-us-location.css');
+@import url('./about-us-page/about-us-contacts.css');
+
+/* FAQ Page */
+@import url('./faq-page/faq-section.css');
 
 :root {
   --animation: 300ms cubic-bezier(0.4, 0, 0.2, 1);

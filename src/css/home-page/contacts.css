@@ -43,25 +43,27 @@
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-color: #fff;
+
+    background-color: #5B6460;
 
     transition: all var(--animation);
 }
 
 .contacts__social-links__link:hover,
 .contacts__social-links__link:focus {
-    background-color: #5B6460;
+    background-color: #fff;
+    border: 1px solid #5B6460;
 }
 
 .contacts__social-links__icon {
     width: 20px;
     height: 20px;
-    fill: #5B6460;
+    fill: #E9ECE0;
 }
 
 .contacts__social-links__link:hover .contacts__social-links__icon,
 .contacts__social-links__link:focus .contacts__social-links__icon {
-    fill: #E9ECE0;
+    fill: #5B6460;
 }
 
 

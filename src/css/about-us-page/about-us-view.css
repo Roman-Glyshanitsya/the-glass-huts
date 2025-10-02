@@ -5,12 +5,10 @@
 
 .about-us__view .container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
 }
-
-.about-us__view__img {}
 
 .about-us__view__text-content-thumb {
     width: 429px;

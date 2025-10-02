@@ -1,0 +1,78 @@
+.faq {}
+
+.faq__list {
+    margin-bottom: 150px;
+}
+
+.faq__item {}
+
+.faq__item-thumb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 774px;
+    height: 60px;
+
+    border: 1px solid #5B6460;
+
+    padding: 21px 24px;
+}
+
+.faq__item-text__subtitle {
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.faq__item__button {
+    width: 34px;
+    height: 34px;
+    background-color: #E9ECE0;
+    border: none;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq__item__button-icon {
+    width: 18px;
+    height: 18px;
+    transition: transform 400ms linear;
+}
+
+.faq__item__slider {
+    width: 774px;
+    height: 0;
+    opacity: 0;
+    padding: 21px;
+    transform: translateY(-200%);
+    transition: all 400ms linear;
+}
+
+.faq__item:hover .faq__item__slider {
+    transform: translateY(0);
+    height: 219px;
+    opacity: 1;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    background: #E9ECE0;
+}
+
+.faq__slider-title {
+    color: #333;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.faq__slider-text {}
+
+.faq__checkbox-btn {}
+
+.faq__checkbox-img {}
