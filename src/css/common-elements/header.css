@@ -43,6 +43,15 @@
     transform-origin: center left;
 }
 
+.nav__link.active {
+    color: #000;
+}
+
+.nav__link.active::after {
+    transform: scale(1);
+    transform-origin: center left;
+}
+
 .language {
     width: 25px;
     height: 25px;
