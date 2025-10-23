@@ -1,5 +1,7 @@
 import { gsap } from 'gsap'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'
 
+gsap.registerPlugin(ScrollTrigger)
 const tl = gsap.timeline()
 
 // Hero
@@ -29,3 +31,45 @@ tl.fromTo(
 )
 
 // The Cabins
+gsap.to('.left-item', {
+  scrollTrigger: {
+    trigger: '.cabins',
+    start: '-50% center',
+    scrub: true,
+  },
+  yPercent: 20,
+})
+
+gsap.to('.right-item', {
+  scrollTrigger: {
+    trigger: '.cabins',
+    start: '-50% center',
+    scrub: true,
+  },
+  yPercent: -30,
+})
+
+gsap.from('.cabins__bedroom__image', {
+  scrollTrigger: {
+    trigger: '.cabins-section',
+    start: '25% center',
+    end: '+=600px',
+    scrub: true,
+  },
+  scale: 0,
+  opacity: 0,
+  transformOrigin: 'left center',
+  ease: 'none',
+  stagger: 1,
+  duration: 1.5,
+})
+
+// Location
+gsap.to('.location-right-item', {
+  scrollTrigger: {
+    trigger: '.location',
+    start: '-50% center',
+    scrub: true,
+  },
+  yPercent: 40,
+})
