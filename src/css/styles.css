@@ -11,6 +11,7 @@
 
 @import url('./common-elements/header.css');
 @import url('./common-elements/footer.css');
+@import url('./common-elements/calendar.css');
 
 /* Home Page */
 @import url('./home-page/hero.css');
