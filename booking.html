@@ -21,8 +21,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     
-    <script type="module" crossorigin src="/the-glass-huts/assets/header-nav-c003893e.js"></script>
-    <link rel="stylesheet" href="/the-glass-huts/assets/header-nav-6c20231e.css">
+    <script type="module" crossorigin src="/the-glass-huts/assets/vendor-85f74c9c.js"></script>
+    <script type="module" crossorigin src="/the-glass-huts/assets/hero-fa224b46.js"></script>
+    <link rel="stylesheet" href="/the-glass-huts/assets/hero-84b2df5f.css">
   </head>
   <body class="animate__animated animate__fadeIn">
     <!-- header -->
@@ -43,7 +44,7 @@
         <li class="nav__item"><a class="nav__link" href="./faq.html">FAQ</a></li>
       </ul>
       <div class="language"></div>
-      <button class="header__button" type="button">Book Now</button>
+      <button class="header__button" type="button" id="open-modal">Book Now</button>
     </nav>
   </div>
 </header>
@@ -283,6 +284,14 @@
     </div>
   </div>
 </footer>
+
+
+     <!-- modal -->
+    <div class="backdrop is-hidden" id="backdrop">
+  <div class="modal">
+    <button type="button" id="close-button">close</button>
+  </div>
+</div>
 
 
     
