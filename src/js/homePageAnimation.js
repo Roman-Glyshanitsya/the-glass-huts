@@ -2,6 +2,7 @@ import { gsap } from 'gsap'
 
 const tl = gsap.timeline()
 
+// Hero
 tl.fromTo(
   '.hero__text',
   {
@@ -26,3 +27,5 @@ tl.fromTo(
     duration: 1,
   },
 )
+
+// The Cabins
