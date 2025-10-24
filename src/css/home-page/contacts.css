@@ -73,11 +73,19 @@
     align-self: flex-end;
 }
 
-.contacts__thumb__img {}
+.contacts__thumb__video {
+    width: 386px;
+    height: 188px;
+    object-fit: cover;
+
+    outline: 1px solid red;
+}
 
 .contacts__button {
     display: inline-flex;
     align-items: center;
+
+    outline: 1px solid red;
 }
 
 .contacts__book-button {
