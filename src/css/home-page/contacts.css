@@ -70,22 +70,17 @@
 
 .contacts__thumb {
     width: 386px;
-    align-self: flex-end;
+    background-color: #5B6460;
 }
 
 .contacts__thumb__video {
+    display: block;
     width: 386px;
-    height: 188px;
-    object-fit: cover;
-
-    outline: 1px solid red;
 }
 
 .contacts__button {
     display: inline-flex;
     align-items: center;
-
-    outline: 1px solid red;
 }
 
 .contacts__book-button {
