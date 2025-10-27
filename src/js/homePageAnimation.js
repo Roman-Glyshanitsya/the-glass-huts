@@ -78,7 +78,6 @@ gsap.to('.location-right-item', {
 gsap.from('.facilities__item__text', {
   scrollTrigger: {
     trigger: '.facilities',
-    markers: true,
     start: '5% center',
     end: '+=600px',
     scrub: true,

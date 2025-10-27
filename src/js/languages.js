@@ -1,9 +1,9 @@
 import i18next from 'i18next'
 
 const flags = {
-  en: { src: '/img/icons/united-kingdom.png', alt: 'united-kingdom' },
-  de: { src: '/img/icons/germany.png', alt: 'germany' },
-  da: { src: '/img/icons/denmark.png', alt: 'denmark' },
+  en: { src: './img/icons/united-kingdom.png', alt: 'united-kingdom' },
+  de: { src: './img/icons/germany.png', alt: 'germany' },
+  da: { src: './img/icons/denmark.png', alt: 'denmark' },
 }
 
 const savedLang = localStorage.getItem('lang') || 'en'
