@@ -73,3 +73,20 @@ gsap.to('.location-right-item', {
   },
   yPercent: 40,
 })
+
+// Facilities
+gsap.from('.facilities__item__text', {
+  scrollTrigger: {
+    trigger: '.facilities',
+    markers: true,
+    start: '5% center',
+    end: '+=600px',
+    scrub: true,
+  },
+  scale: 0,
+  opacity: 0,
+  transformOrigin: 'left center',
+  ease: 'none',
+  stagger: 1,
+  duration: 1.5,
+})
