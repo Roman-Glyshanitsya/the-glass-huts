@@ -5,7 +5,7 @@ import 'swiper/css/effect-cube'
 
 const swiperElements = document.querySelectorAll('.swiper')
 
-const delays = [0, 600, 1200]
+const delays = [600, 0, 1200]
 
 swiperElements.forEach((el, index) => {
   setTimeout(() => {
