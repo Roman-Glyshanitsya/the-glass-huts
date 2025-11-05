@@ -21,12 +21,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     
-    <script type="module" crossorigin src="/the-glass-huts/assets/vendor-f604eba8.js"></script>
-    <script type="module" crossorigin src="/the-glass-huts/assets/homePageTheCabins-75690be0.js"></script>
-    <link rel="stylesheet" href="/the-glass-huts/assets/homePageTheCabins-af73c24b.css">
-    <link rel="stylesheet" href="/the-glass-huts/assets/vendor-7cb74832.css">
+    <script type="module" crossorigin src="/the-glass-huts/commonHelpers4.js"></script>
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/vendor-e89245a2.js">
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/pageTransition-c89fbad0.js">
+    <link rel="stylesheet" href="/the-glass-huts/assets/pageTransition-ca46aaae.css">
+    <link rel="stylesheet" href="/the-glass-huts/assets/vendor-9daa5223.css">
   </head>
   <body class="animate__animated animate__fadeIn">
+    <div id="page-transition"></div>
+
     <!-- header -->
     <header class="header">
   <div class="container">
@@ -90,7 +93,7 @@
           On the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages
           are built around tall, old trees that go through the entire cottage from floor to ceiling.
         </p>
-        <a class="cabins__link" href="">Read More</a>
+        <a class="cabins__link" href="./the-hut.html">Read More</a>
       </div>
       <img
         class="cabins__image right-item"
@@ -200,7 +203,7 @@
         the roof, surrounded by treetops, there is a terrace, which is about nine meters above ground. The cottages are
         built around tall, old trees that go through the entire cottage from floor to ceiling.
       </p>
-      <a class="location__link" href="">Read More</a>
+      <a class="location__link" href="./the-area.html">Read More</a>
     </div>
   </div>
 </section>
@@ -286,7 +289,7 @@
 </section>
 
     <section class="more-about-us">
-  <a href="../about-us.html" class="more-about-us__link">More about us</a>
+  <a href="./about-us.html" class="more-about-us__link">More about us</a>
 </section>
 
     <section class="contacts">
@@ -387,32 +390,24 @@
       </ul>
       <ul class="footer__icons__list">
         <li class="footer__icons__item">
-          <a href="" class="footer__icons__link">
-            <svg class="footer__icon">
-              <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-paypal"></use>
-            </svg>
-          </a>
+          <svg class="footer__icon">
+            <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-paypal"></use>
+          </svg>
         </li>
         <li class="footer__icons__item">
-          <a href="" class="footer__icons__link">
-            <svg class="footer__icon">
-              <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-mastercard"></use>
-            </svg>
-          </a>
+          <svg class="footer__icon">
+            <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-mastercard"></use>
+          </svg>
         </li>
         <li class="footer__icons__item">
-          <a href="" class="footer__icons__link">
-            <svg class="footer__icon">
-              <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-visa"></use>
-            </svg>
-          </a>
+          <svg class="footer__icon">
+            <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-visa"></use>
+          </svg>
         </li>
         <li class="footer__icons__item">
-          <a href="" class="footer__icons__link">
-            <svg class="footer__icon">
-              <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-bank"></use>
-            </svg>
-          </a>
+          <svg class="footer__icon">
+            <use href="/the-glass-huts/assets/footer-icons-sprite-3cddf146.svg#icon-bank"></use>
+          </svg>
         </li>
       </ul>
     </div>
@@ -428,6 +423,7 @@
 </div>
 
 
+    
     
   </body>
 </html>
