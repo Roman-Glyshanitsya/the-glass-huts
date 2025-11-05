@@ -3,6 +3,7 @@
     z-index: -2;
     height: 700px;
     background-color: grey;
+    margin-top: 125px;
 }
 
 .hero::before {

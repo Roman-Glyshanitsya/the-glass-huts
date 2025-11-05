@@ -49,21 +49,6 @@ gsap.to('.right-item', {
   yPercent: -30,
 })
 
-// gsap.from('.cabins__bedroom__image', {
-//   scrollTrigger: {
-//     trigger: '.cabins-section',
-//     start: '25% center',
-//     end: '+=600px',
-//     scrub: true,
-//   },
-//   scale: 0,
-//   opacity: 0,
-//   transformOrigin: 'left center',
-//   ease: 'none',
-//   stagger: 1,
-//   duration: 1.5,
-// })
-
 // Location
 gsap.to('.location-right-item', {
   scrollTrigger: {

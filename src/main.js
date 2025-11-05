@@ -1,5 +1,4 @@
 import './js/languages'
 import './js/modal'
 import './js/header-nav'
-import './js/homePageAnimation'
-import './js/homePageTheCabins'
+import './js/pageTransition'

@@ -1,16 +1,30 @@
 .hut__hero {
-    height: 350px;
-    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url('/img/the-hut-page/hero/hut-hero-3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    position: relative;
     background-color: grey;
     color: #FFF;
-    text-align: center;
-    padding-top: 67px;
+    margin-top: 125px;
+}
+
+.hut__hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.hut__swiper {
+    width: 100%;
+    height: 350px;
 }
 
 .hut__title {
+    position: absolute;
+    z-index: 2;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     font-size: 70px;
     font-weight: 300;
     line-height: 1.02;

@@ -13,7 +13,7 @@ const savedLang = localStorage.getItem('lang') || 'en'
 
 i18next.init({
   lng: savedLang,
-  debug: true,
+  // debug: true,
   resources: {
     en: {
       translation: {
