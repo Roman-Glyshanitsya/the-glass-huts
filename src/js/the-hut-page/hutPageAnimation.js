@@ -11,6 +11,7 @@ tl.fromTo(
   {
     y: 0,
     opacity: 1,
+    delay: 1,
     duration: 1,
   },
 )
