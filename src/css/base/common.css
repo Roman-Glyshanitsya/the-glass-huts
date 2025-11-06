@@ -15,6 +15,10 @@ body {
     line-height: 1.87;
 }
 
+.page {
+    overflow: hidden;
+}
+
 #page-transition {
     position: fixed;
     inset: 0;
