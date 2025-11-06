@@ -30,12 +30,12 @@
 .swiper {
     width: 350px;
     aspect-ratio: 1 / 1;
-    /* або інше співвідношення — 16 / 9, 3 / 2 тощо */
     overflow: hidden;
 }
 
 .cabins__swiper__thumb {
     display: flex;
+    justify-content: center;
     gap: 90px;
 }
 

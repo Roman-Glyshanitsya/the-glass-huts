@@ -43,3 +43,29 @@ body {
     line-height: 1.87;
     color: #333;
 }
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 45px;
+    height: 45px;
+    background-color: #333333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 22px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s ease, transform 0.3s ease, visibility 0.3s;
+    z-index: 9999;
+}
+
+.scroll-to-top:hover {
+    transform: scale(1.1);
+}
+
+.scroll-to-top.show {
+    opacity: 1;
+    visibility: visible;
+}

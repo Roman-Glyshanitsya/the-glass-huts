@@ -3,7 +3,7 @@ import { gsap } from 'gsap'
 const tl = gsap.timeline()
 
 tl.fromTo(
-  '.hut__title',
+  '.area__title',
   {
     y: 50,
     opacity: 0,
