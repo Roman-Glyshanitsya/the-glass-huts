@@ -12,7 +12,7 @@ document.addEventListener('DOMContentLoaded', () => {
       pageTransition.style.transform = 'translateX(0)'
       setTimeout(() => {
         window.location.href = href
-      }, 1500)
+      }, 1000)
     })
   })
 })
