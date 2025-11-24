@@ -19,9 +19,18 @@
     margin-bottom: 150px;
 }
 
+.hut__gallery__swiper {
+    width: 546px;
+    height: 478px;
+}
+
 .hut__item__image-thumb {}
 
-.hut__item__image {}
+.hut__item__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
 
 .hut__item__text-thumb {}
 
