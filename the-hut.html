@@ -23,7 +23,8 @@
     <script type="module" crossorigin src="/the-glass-huts/commonHelpers6.js"></script>
     <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/vendor-e89245a2.js">
     <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/scrollToTop-110d715c.js">
-    <link rel="stylesheet" href="/the-glass-huts/assets/scrollToTop-618f4b09.css">
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/pageHeroSwiper-458935ef.js">
+    <link rel="stylesheet" href="/the-glass-huts/assets/scrollToTop-7c15967e.css">
     <link rel="stylesheet" href="/the-glass-huts/assets/vendor-9daa5223.css">
   </head>
   <body>
@@ -62,8 +63,7 @@
 
       <!-- main -->
       <section class="hut__hero">
-  <!-- <div class="container"> -->
-  <div class="hut-hero-swiper hut__swiper">
+  <div class="hero-swiper hut__swiper">
     <ul class="swiper-wrapper">
       <li class="swiper-slide">
         <img class="hut__swiper__image" src="/the-glass-huts/assets/hut-hero-1-471f83b6.jpg" alt="" />
@@ -77,17 +77,16 @@
     </ul>
   </div>
   <h1 class="hut__title">The Hut</h1>
-  <!-- </div> -->
 </section>
 
       <section class="hut">
   <div class="container">
     <ul class="hut__list">
       <li class="hut__item">
-        <div class="hut__item__image-thumb">
+        <div class="hut__item__image-thumb hut-left-item">
           <img src="/the-glass-huts/assets/outside-372abf2a.jpg" alt="" class="hut__item__image" />
         </div>
-        <div class="hut__item__text-thumb">
+        <div class="hut__item__text-thumb hut-right-item">
           <h2 class="section__title">The Outside</h2>
           <ul class="hut__item__image-list">
             <li class="hut__item__image-item">Hot tube</li>
@@ -101,10 +100,10 @@
         </div>
       </li>
       <li class="hut__item">
-        <div class="hut__item__image-thumb">
+        <div class="hut__item__image-thumb hut-right-item">
           <img src="/the-glass-huts/assets/space-f88a8800.jpg" alt="" class="hut__item__image" />
         </div>
-        <div class="hut__item__text-thumb">
+        <div class="hut__item__text-thumb hut-left-item">
           <h2 class="section__title">The Inside</h2>
           <ul class="hut__item__image-list">
             <li class="hut__item__image-item">Space</li>
@@ -120,10 +119,10 @@
         </div>
       </li>
       <li class="hut__item">
-        <div class="hut__item__image-thumb">
+        <div class="hut__item__image-thumb hut-left-item">
           <img src="/the-glass-huts/assets/breakfast-8298fbc0.jpg" alt="" class="hut__item__image" />
         </div>
-        <div class="hut__item__text-thumb">
+        <div class="hut__item__text-thumb hut-right-item">
           <h2 class="section__title">Practicalities</h2>
           <ul class="hut__item__image-list">
             <li class="hut__item__image-item">Breakfast</li>
@@ -204,6 +203,7 @@
 
     <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
 
+    
     
     
   </body>

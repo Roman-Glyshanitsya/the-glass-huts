@@ -1,2 +1,2 @@
-import"./assets/scrollToTop-110d715c.js";import{g as t}from"./assets/vendor-e89245a2.js";const i=t.timeline();i.fromTo(".area__title",{y:50,opacity:0},{y:0,opacity:1,delay:1,duration:1});
+import"./assets/scrollToTop-110d715c.js";import{g as o}from"./assets/vendor-e89245a2.js";import"./assets/pageHeroSwiper-458935ef.js";const t=o.timeline();t.fromTo(".area__title",{y:50,opacity:0},{y:0,opacity:1,delay:1,duration:1}).fromTo(".area__hero__adress-link",{opacity:0},{opacity:1,duration:1}).fromTo(".area__hero__button",{opacity:0},{opacity:1,duration:1});
 //# sourceMappingURL=commonHelpers5.js.map
