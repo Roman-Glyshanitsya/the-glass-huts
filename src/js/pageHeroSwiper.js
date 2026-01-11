@@ -3,7 +3,7 @@ import { EffectFade, Autoplay } from 'swiper/modules'
 import 'swiper/css'
 import 'swiper/css/effect-fade'
 
-const swiper = new Swiper('.hut-hero-swiper', {
+const swiper = new Swiper('.hero-swiper', {
   modules: [EffectFade, Autoplay],
   effect: 'fade',
   fadeEffect: {

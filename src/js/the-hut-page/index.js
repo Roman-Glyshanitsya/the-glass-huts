@@ -1,2 +1,1 @@
-import './hutPageHeroSwiper'
 import './hutPageAnimation'

@@ -1,14 +1,33 @@
 .area__hero {
-    height: 350px;
-    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url('/img/the-area-page/hero/area-hero-3.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    position: relative;
     background-color: grey;
     color: #FFF;
-    text-align: center;
-    padding-top: 67px;
     margin-top: 125px;
+}
+
+.area__hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.area__swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.area__hero__text-content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .area__title {
@@ -22,7 +41,6 @@
     font-size: 18px;
     line-height: 1.33;
     text-decoration-line: underline;
-
 }
 
 .area__hero__adress-link::before {
@@ -35,11 +53,10 @@
 }
 
 .area__hero__button {
-    display: block;
     width: 180px;
     height: 55px;
     border: 0.7px solid #FFF;
-    margin: 50px auto;
+    margin-top: 50px;
 
     color: #FFF;
     text-align: center;
