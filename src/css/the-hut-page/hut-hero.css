@@ -22,7 +22,7 @@
 .hut__title {
     position: absolute;
     z-index: 2;
-    top: 30%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     font-size: 70px;

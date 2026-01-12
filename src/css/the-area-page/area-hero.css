@@ -53,9 +53,8 @@
 }
 
 .area__hero__button {
-    width: 180px;
-    height: 55px;
     border: 0.7px solid #FFF;
+    padding: 14px 30px;
     margin-top: 50px;
 
     color: #FFF;
