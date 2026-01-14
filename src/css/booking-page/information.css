@@ -42,7 +42,7 @@
     line-height: 200%;
     letter-spacing: 1px;
     text-transform: uppercase;
-
+    padding: 14px 55px;
     margin-top: 100px;
 
     transition: background-color var(--animation);

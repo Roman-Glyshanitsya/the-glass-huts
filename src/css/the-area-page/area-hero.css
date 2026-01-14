@@ -1,5 +1,7 @@
 .area__hero {
     position: relative;
+    height: 350px;
+    overflow: hidden;
     background-color: grey;
     color: #FFF;
     margin-top: 125px;
@@ -17,6 +19,12 @@
 .area__swiper {
     width: 100%;
     height: 100%;
+}
+
+.area__swiper__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .area__hero__text-content {
