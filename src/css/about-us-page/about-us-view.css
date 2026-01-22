@@ -6,8 +6,7 @@
 .about-us__view .container {
     display: flex;
     justify-content: space-around;
-    align-items: center;
-
+    align-items: start;
 }
 
 .about-us__view__text-content-thumb {

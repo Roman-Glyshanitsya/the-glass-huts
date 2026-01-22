@@ -28,7 +28,7 @@ hutItems.forEach(item => {
 
   gsap.fromTo(
     image,
-    { yPercent: 20 },
+    { yPercent: -5 },
     {
       yPercent: -20,
       ease: 'none',

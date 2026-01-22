@@ -1,21 +1,48 @@
 .about-us__hero {
+    position: relative;
     height: 350px;
-    background-image: linear-gradient(to right, rgba(51, 51, 51, 0.7), rgba(51, 51, 51, 0.7)), url('/img/about-us-page/hero/about-us-hero-1.jpg');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-size: cover;
+    overflow: hidden;
     background-color: grey;
     color: #FFF;
-    text-align: center;
-    padding-top: 67px;
     margin-top: 125px;
+}
+
+.about-us__hero::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    z-index: 2;
+    pointer-events: none;
+}
+
+.about-us__swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.about-us__swiper__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.about-us__hero__text-content {
+    position: absolute;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .about-us__hero__title {
     font-size: 70px;
     font-weight: 300;
     line-height: 1.02;
-    margin-bottom: 89px;
+    /* margin-bottom: 89px; */
 }
 
 .about-us__hero__button__list {
@@ -28,6 +55,7 @@
 .about-us__hero__button {
     width: 180px;
     height: 55px;
+    padding: 14px 30px;
     border: 0.7px solid #FFF;
 
     color: #FFF;
