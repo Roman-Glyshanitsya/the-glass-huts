@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -21,9 +21,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
     
-    <script type="module" crossorigin src="/the-glass-huts/assets/vendor-2f4522f9.js"></script>
-    <script type="module" crossorigin src="/the-glass-huts/assets/scrollToTop-86660543.js"></script>
-    <link rel="stylesheet" href="/the-glass-huts/assets/scrollToTop-7de0ff35.css">
+    <script type="module" crossorigin src="/the-glass-huts/commonHelpers.js"></script>
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/vendor-4121c4e9.js">
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/scrollToTop-6e719f09.js">
+    <link rel="modulepreload" crossorigin href="/the-glass-huts/assets/pageHeroSwiper-2d618075.js">
+    <link rel="stylesheet" href="/the-glass-huts/assets/scrollToTop-e45c4bc3.css">
     <link rel="stylesheet" href="/the-glass-huts/assets/vendor-9d4e11ed.css">
   </head>
   <body>
@@ -62,14 +64,27 @@
 
       <!-- main -->
       <section class="about-us__hero">
-  <div class="container">
+  <div class="hero-swiper about-us__swiper">
+    <ul class="swiper-wrapper">
+      <li class="swiper-slide">
+        <img class="about-us__swiper__image" src="/the-glass-huts/assets/about-us-hero-2-3904cce2.jpg" alt="" />
+      </li>
+      <li class="swiper-slide">
+        <img class="about-us__swiper__image" src="/the-glass-huts/assets/about-us-hero-1-6fb39ec2.jpg" alt="" />
+      </li>
+      <li class="swiper-slide">
+        <img class="about-us__swiper__image" src="/the-glass-huts/assets/booking-hero-1-222c582f.jpg" alt="" />
+      </li>
+    </ul>
+  </div>
+  <div class="about-us__hero__text-content">
     <h1 class="about-us__hero__title">About Us</h1>
     <ul class="about-us__hero__button__list">
       <li class="about-us__hero__button__item">
-        <button type="button" class="about-us__hero__button">contact us</button>
+        <a href="#in-touch" class="about-us__hero__button">contact us</a>
       </li>
       <li class="about-us__hero__button__item">
-        <button type="button" class="about-us__hero__button">read FAQ</button>
+        <a href="./faq.html" class="about-us__hero__button">read FAQ</a>
       </li>
     </ul>
   </div>
@@ -77,8 +92,8 @@
 
       <section class="about-us__view">
   <div class="container">
-    <img class="about-us__view__img" src="/the-glass-huts/assets/about-ua-view-1-945b09fc.jpg" alt="" />
-    <div class="about-us__view__text-content-thumb">
+    <img class="about-us__view__img about-us-left-item" src="/the-glass-huts/assets/about-ua-view-1-945b09fc.jpg" alt="" />
+    <div class="about-us__view__text-content-thumb about-us-right-item">
       <h2 class="about-us__view__title">
         “Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
         magna aliqua.”
@@ -95,7 +110,7 @@
 
       <section class="about-us__location">
   <div class="container">
-    <h2 class="about-us__location__title">Lorem ipsum dolor sit amet, consectetur adipiscing...</h2>
+    <h2 class="about-us__location__title split-text">Lorem ipsum dolor sit amet, consectetur adipiscing...</h2>
     <div class="about-us__location__top-thumb">
       <img src="/the-glass-huts/assets/location-top-1-bc8f024d.jpg" alt="hut" class="about-us__location__square-img" />
       <img src="/the-glass-huts/assets/location-top-2-a3afce39.jpg" alt="view" class="about-us__location__img" />
@@ -111,7 +126,7 @@
   </div>
 </section>
 
-      <section class="about-us__contacts">
+      <section class="about-us__contacts" id="in-touch">
   <div class="container">
     <div class="about-us__contacts__main-container">
       <div class="about-us__contacts__thumb">
@@ -249,6 +264,8 @@
 
     <button id="scrollToTopBtn" class="scroll-to-top">↑</button>
 
+    
+    
     
   </body>
 </html>
