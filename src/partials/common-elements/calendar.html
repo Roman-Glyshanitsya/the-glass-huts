@@ -1,5 +1,38 @@
 <div class="backdrop is-hidden" id="backdrop">
   <div class="modal">
+    <div class="booking-bar">
+      <div class="field">
+        <span class="label">Check in</span>
+        <span id="checkIn" class="value">Add date</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="field">
+        <span class="label">Check out</span>
+        <span id="checkOut" class="value">Add date</span>
+      </div>
+
+      <div class="divider"></div>
+
+      <div class="field guests">
+        <span class="label">Guests</span>
+        <div class="guests-control">
+          <button>-</button>
+          <span>1</span>
+          <button>+</button>
+        </div>
+      </div>
+
+      <button class="book-btn">BOOK</button>
+    </div>
+
+    <!-- hidden input for flatpickr -->
+    <input type="text" id="dateRange" hidden />
+
+    <!-- контейнер для inline календаря -->
+    <div id="calendar"></div>
+
     <button type="button" id="close-button">close</button>
   </div>
 </div>

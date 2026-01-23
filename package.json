@@ -17,6 +17,7 @@
   "license": "ISC",
   "dependencies": {
     "animate.css": "^4.1.1",
+    "flatpickr": "^4.6.13",
     "gsap": "^3.13.0",
     "i18next": "^25.6.0",
     "modern-normalize": "^2.0.0",

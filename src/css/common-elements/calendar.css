@@ -32,3 +32,47 @@
 
     transition: transform var(--animation);
 }
+
+/* Calendar */
+.booking-bar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) auto;
+    background: #fff;
+    border: 1px solid #ddd;
+}
+
+.field {
+    padding: 12px 16px;
+}
+
+.label {
+    display: block;
+    font-size: 12px;
+    text-transform: uppercase;
+    opacity: 0.6;
+}
+
+.value {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.divider {
+    width: 1px;
+    background: #ddd;
+}
+
+.guests-control {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.book-btn {
+    background: #5b6f6a;
+    color: #fff;
+    border: none;
+    padding: 0 32px;
+    font-weight: 600;
+    cursor: pointer;
+}
